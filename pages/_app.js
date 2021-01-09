@@ -1,7 +1,10 @@
-import '../styles/globals.css'
+import 'bootstrap/scss/bootstrap.scss';
+import '../styles/custom.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import React from 'react';
+
+function MyApp({Component, pageProps}) {
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
