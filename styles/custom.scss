@@ -2,7 +2,29 @@
   height: 45px;
 }
 
+.top-header {
+ height: 96px;
+}
+
 .navbar-shadow {
   background: #FFFFFF;
   box-shadow: 0 3px 6px #00000029;
+}
+
+.footer {
+  width: 100%;
+  height: 99px;
+  line-height: 60px;
+  background-color: #2981BA;
+  padding: 15px;
+}
+
+.footer-copyright-text {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.footer-logo {
+  height: 45px;
+  margin-right: 50px;
 }
