@@ -1,6 +1,7 @@
 $body-color: #2C3E50;
 $headings-font-weight: 900;
 $red: #E84C3C;
+$success: #3F740A;
 @import "node_modules/bootstrap/scss/bootstrap";
 
 img {
@@ -87,6 +88,7 @@ img.svg-icon {
 .no-request-text-box {
   width: 671px;
   padding: 0 100px 0 100px;
+  margin: 0 auto;
 }
 
 .card-index {
@@ -141,4 +143,46 @@ img.svg-icon {
 .card-disable, .card-disable .btn-index, .card-disable input {
   opacity: 0.5;
   cursor: no-drop !important;
+}
+
+.card-becoming {
+  background: #3499DC0D;
+  border: none;
+  border-radius: 7px;
+  max-height: 86px;
+}
+
+.card-becoming-index {
+  margin: 25px 1px;
+  padding: 0;
+  font-size: 12px;
+}
+
+.card-becoming button {
+  width: 70px;
+  height: 24px;
+  line-height: 0px;
+  background: #3499DC80;
+  border: 2px solid #3499DC;
+  font-size: 11px;
+  border-radius: 8px;
+  margin: 30px 0px;
+}
+
+.card-becoming img {
+  margin: 32px 18px;
+  width: 24px;
+  height: auto;
+}
+
+.card-becoming-gutter.row,
+.card-becoming-gutter.container,
+.card-becoming-gutter.container-fluid {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.card-becoming-gutter > [class^="col-"] {
+  padding-left: 3px;
+  padding-right: 3px;
 }
