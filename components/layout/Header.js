@@ -7,14 +7,20 @@ const Header = () => {
       <Navbar
         className="top-header sticky-top flex-md-nowrap navbar-shadow">
         <NavbarBrand href="#">
-          <img className="nav-image-logo" src="/assets/logo.png" alt=""/>
+          <img className="nav-image-logo" src="/assets/image/logo.png" alt=""/>
         </NavbarBrand>
         <Nav>
           <NavItem>
-            <NavLink href="#">Notification</NavLink>
+            <NavLink href="#">
+              <img className="svg-icon" src="/assets/svg/bell.svg"
+                   alt="Notification"/>
+              Notification</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">My Account</NavLink>
+            <NavLink href="#">
+              <img className="svg-icon" src="/assets/svg/user.svg"
+                   alt="Notification"/>
+              My Account</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

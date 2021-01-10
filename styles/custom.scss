@@ -3,7 +3,7 @@
 }
 
 .top-header {
- height: 96px;
+  height: 96px;
 }
 
 .navbar-shadow {
@@ -17,6 +17,7 @@
   line-height: 60px;
   background-color: #2981BA;
   padding: 15px;
+  z-index: 999;
 }
 
 .footer-copyright-text {
@@ -27,4 +28,44 @@
 .footer-logo {
   height: 45px;
   margin-right: 50px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  padding: 48px 0 0;
+  margin: 30px 0 0 30px;
+}
+
+.ms-sm-auto {
+  margin-left: auto !important;
+}
+
+.navbar-brand {
+  margin-left: 25px;
+}
+
+.nav-link {
+  color: #24415C;
+}
+
+.nav-link.active {
+  color: #0077B7;
+}
+
+.nav-link:hover {
+  color: #0077B7;
+}
+
+img.svg-icon {
+  width: 22px;
+  height: 22px;
+  margin-right: 20px;
+}
+
+.sidebar-nav .nav-link {
+  padding-bottom: 16px;
 }
