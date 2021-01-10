@@ -30,7 +30,7 @@ export default function HomeCard () {
             <Col md="9">
               <CardBody className="card-body-index">
                 <span className="text-muted card-title card-title-sm-index">If you want to, you can update your availability</span>
-                <p className="card-text mt-4">
+                <div className="card-text mt-4">
                   <Row>
                     <Col md="6">
                       <form className="form-inline">
@@ -44,7 +44,7 @@ export default function HomeCard () {
                     <Col md="6"><Button
                       className="btn-index">Update</Button></Col>
                   </Row>
-                </p>
+                </div>
               </CardBody>
             </Col>
             <Col md="3">
